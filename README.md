@@ -1,4 +1,5 @@
-# golang-volkswagen
+# golang-volkswagen [![Build Status](https://travis-ci.org/zackexplosion/golang-volkswagen.svg)](https://travis-ci.org/zackexplosion/golang-volkswagen)
+
 
 golang-volkswagen detects when your tests are being run in a CI server, and makes them pass.
 
