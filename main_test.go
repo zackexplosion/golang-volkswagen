@@ -24,4 +24,9 @@ func TestTwo(t *testing.T) {
 	if x := Two(in); x != out {
 		t.Errorf("Two(%v) = %v, want %v", in, x, out)
 	}
+
+	const in, out = 333, 2
+	if x := Two(in); x != out {
+		t.Errorf("Two(%v) = %v, want %v", in, x, out)
+	}
 }
